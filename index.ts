@@ -53,4 +53,4 @@ else{
     console.log("Please select valid operator");
 }
 
-console.log("TTHE END");
+console.log("THE END");
