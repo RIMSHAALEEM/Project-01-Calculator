@@ -14,8 +14,8 @@ import inquirer from "inquirer";
 
 // ([{}]);  is ke andr humne jo user se input lena hain hum wo user ko batayengain
 const answer = await inquirer.prompt([
-  { message: "Enter First Number", type: "number", name: "firstNumber" },
-  { message: "Enter Second number", type: "number", name: "secondNumber" },
+  { message: "Enter Your First Number", type: "number", name: "firstNumber" },
+  { message: "Enter Your Second number", type: "number", name: "secondNumber" },
   {
     message: "Select one of the operators to perform operation",
     type: "list",
@@ -52,3 +52,5 @@ else if(answer.operator === "Division"){
 else{
     console.log("Please select valid operator");
 }
+
+console.log("TTHE END");
