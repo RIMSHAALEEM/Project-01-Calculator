@@ -1,6 +1,6 @@
 {
   "name": "unique-simple-cli-calculator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is simple calculator using Typescript, Node.js, and Inquirer",
   "main": "index.js",
   "type": "module",

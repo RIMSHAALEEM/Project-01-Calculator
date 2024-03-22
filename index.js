@@ -9,8 +9,8 @@ import inquirer from "inquirer";
 //await means isline pr rukay aur user se data lain jo hum usko denay walay hain to jab data mil jaye tb hi aga jana hai wrn aisi line pr rukay rahain agay jane ki zaroorat nhi hai
 // ([{}]);  is ke andr humne jo user se input lena hain hum wo user ko batayengain
 const answer = await inquirer.prompt([
-    { message: "Enter First Number", type: "number", name: "firstNumber" },
-    { message: "Enter Second number", type: "number", name: "secondNumber" },
+    { message: "Enter Your First Number", type: "number", name: "firstNumber" },
+    { message: "Enter Your Second number", type: "number", name: "secondNumber" },
     {
         message: "Select one of the operators to perform operation",
         type: "list",
@@ -22,21 +22,25 @@ const answer = await inquirer.prompt([
 if (answer.operator === "Addition") {
     console.log("Your value is");
     console.log(answer.firstNumber + answer.secondNumber);
+    console.log("THE END");
 }
 //conditional statements for subtraction
 else if (answer.operator === "Subtraction") {
     console.log("Your value is");
     console.log(answer.firstNumber - answer.secondNumber);
+    console.log("THE END");
 }
 //conditional statements for multiplication
 else if (answer.operator === "Multiplication") {
     console.log("Your value is");
     console.log(answer.firstNumber * answer.secondNumber);
+    console.log("THE END");
 }
 //conditional statements for dividion
 else if (answer.operator === "Division") {
     console.log("Your value is");
     console.log(answer.firstNumber / answer.secondNumber);
+    console.log("THE END");
 }
 else {
     console.log("Please select valid operator");

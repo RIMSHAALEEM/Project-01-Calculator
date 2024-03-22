@@ -28,29 +28,33 @@ const answer = await inquirer.prompt([
 if(answer.operator === "Addition"){
     console.log("Your value is");
     console.log(answer.firstNumber + answer.secondNumber);
+    console.log("THE END");
 } 
 
 //conditional statements for subtraction
 else if(answer.operator === "Subtraction"){
     console.log("Your value is");
     console.log(answer.firstNumber - answer.secondNumber);
+    console.log("THE END");
 } 
 
 //conditional statements for multiplication
 else if(answer.operator === "Multiplication"){
     console.log("Your value is");
     console.log(answer.firstNumber * answer.secondNumber);
+    console.log("THE END");
 } 
 
 //conditional statements for dividion
 else if(answer.operator === "Division"){
     console.log("Your value is");
     console.log(answer.firstNumber / answer.secondNumber);
+    console.log("THE END");
 } 
+
 
 
 else{
     console.log("Please select valid operator");
 }
 
-console.log("THE END");
